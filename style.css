@@ -1,0 +1,93 @@
+.calc {/*вид блока*/
+    margin: 50px auto;/*расположение калькулятора по центру*/
+    width: 790px; /*ширина блока*/
+    height: 410px;/*высота блока*/
+    border: 1px solid #c2ccdc;/*рамка всего калькулятора*/
+    /* border-radius: 10px;устанавливает радиус для рамки */
+    background:#fff;/*заливает рамку белым цветом*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding:15px;
+
+
+}
+
+.calc-scrin {
+    
+    height: 100px;
+    padding: 10px;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+    border:1px solid #bac7da;
+    border-radius: 7px;
+    
+}
+
+.clac-scrin:hover {
+    filter: brightness(90%);
+}
+
+.calc-scrin p{
+    font-size: 3rem;/*размер 0*/
+    padding-right: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;/* Равномерно распределяет все элементы по ширине flex-блока.Все элементы имеют равное пространство вокруг */
+    /* min-height: 50vh; расстягивает текст*/
+   
+}
+
+.btn:active {
+    border-radius: 1px solid black;
+}
+
+
+.btn {
+    width: 100px;/*ширина пространства кнопки*/
+    height: 40px;/*высота кнопки*/
+    background: #c2ccdc;/*цвет фона кнопки*/
+    border: 1px solid #bac6d9;/*рамка*/
+    border-radius: 5px;/*радиус рамки*/
+    text-align: center;/*выравнивание центра в пределах элемента по центру*/
+    line-height: 40px;/*межстрочный интервал*/
+    cursor: pointer;/*при наведении пояляется курсор*/
+    user-select: none;/*нельзя выделить текст кнопки когда нажимаешь на нее*/
+    margin: 5px;
+    
+}
+
+.btn.equals {
+    background: #038cfc;
+    color: white;
+    border: 1px solid #038cfc;
+    font-weight: bold;/*жирный текст*/
+} 
+
+.btn.lmer {
+    background: #e7e9eb;
+    color: black;
+    border: 1px solid #e7e9eb;
+
+}
+
+.btn.start {/*жирная точка*/
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.rad {
+    width: 211px;
+    height: 40px;
+    background: #bac6d9;/*цвет фона кнопки*/
+    border: 1px solid #bac6d9;/*рамка*/
+    border-radius: 5px;/*радиус рамки*/
+    text-align: center;/*выравнивание центра в пределах элемента по центру*/
+    line-height: 40px;/*межстрочный интервал*/
+    cursor: pointer;/*при наведении пояляется курсор*/
+    user-select: none;/*нельзя выделить текст кнопки когда нажимаешь на нее*/
+    margin: 5px;
+}   
